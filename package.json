@@ -1,0 +1,19 @@
+{
+  "name": "study-ended",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzola-ie/self-selection-end.git"
+  },
+  "author": "Idea Evolver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzola-ie/self-selection-end/issues"
+  },
+  "homepage": "https://github.com/rzola-ie/self-selection-end#readme"
+}
