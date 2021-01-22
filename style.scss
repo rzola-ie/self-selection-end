@@ -1,0 +1,112 @@
+/* GENERAL
+===================================== */
+
+@import 'breakpoints.scss';
+
+:root {
+  --teal: #47bb9e;
+  --yellow: #eab544;
+  --blue: #1d4288;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* MAIN CONTENT
+===================================== */
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* HERO MOBILE
+===================================== */
+main#thank-you #canvas-mobile {
+  display: block;
+
+  @include for-desktop-up {
+    display: none;
+  }
+}
+
+main#thank-you #canvas-mobile h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+main#thank-you #canvas-mobile p {
+  text-align: center;
+  line-height: 2.2rem;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+}
+
+/* HERO DESKTOP
+===================================== */
+main#thank-you #canvas-desktop {
+  display: none;
+  
+  @include for-desktop-up {
+    display: block;
+  }
+}
+
+main#thank-you #canvas-desktop h1 {
+  text-align: center
+}
+
+main#thank-you #canvas-desktop p {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* FOOTER
+===================================== */
+
+footer {
+  height: 100px;
+  padding: 0 2rem;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+
+  @include for-desktop-up {
+    font-size: 1.25rem;
+  }
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.7);
+  transition: color 200ms ease-in-out;
+
+  &:hover {
+    color: black;
+  }
+}
+
+footer span {
+  margin: 0 1rem;
+}

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/rzola-ie/self-selection-end/issues"
   },
-  "homepage": "https://github.com/rzola-ie/self-selection-end#readme"
+  "homepage": "https://github.com/rzola-ie/self-selection-end#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.5"
+  }
 }
