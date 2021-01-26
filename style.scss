@@ -42,7 +42,7 @@ h1 {
 
 /* HERO MOBILE
 ===================================== */
-main#thank-you #canvas-mobile {
+main#thank-you .canvas-mobile {
   display: block;
 
   @include for-desktop-up {
@@ -50,12 +50,12 @@ main#thank-you #canvas-mobile {
   }
 }
 
-main#thank-you #canvas-mobile h1 {
+main#thank-you .canvas-mobile h1 {
   text-align: center;
   font-size: 3rem;
 }
 
-main#thank-you #canvas-mobile p {
+main#thank-you .canvas-mobile p {
   text-align: center;
   line-height: 2.2rem;
   padding: 0 2rem;
@@ -64,7 +64,7 @@ main#thank-you #canvas-mobile p {
 
 /* HERO DESKTOP
 ===================================== */
-main#thank-you #canvas-desktop {
+main#thank-you .canvas-desktop {
   display: none;
   
   @include for-desktop-up {
@@ -72,11 +72,11 @@ main#thank-you #canvas-desktop {
   }
 }
 
-main#thank-you #canvas-desktop h1 {
+main#thank-you .canvas-desktop h1 {
   text-align: center
 }
 
-main#thank-you #canvas-desktop p {
+main#thank-you .canvas-desktop p {
   text-align: center;
   font-size: 0.85rem;
 }
